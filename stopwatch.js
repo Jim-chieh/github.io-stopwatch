@@ -1,9 +1,9 @@
-let startDiv = document.querySelector('.button')
-let stopDiv = document.querySelector('.button-2')
-let start = document.querySelector('.button .start')
-let stopBtn = document.querySelector('.button-2 .stop')
-let reset1 = document.querySelector('.button .reset')
-let reset2 = document.querySelector('.button-2 .reset')
+let startDiv = document.querySelector('.button') //選取有start按鈕的div
+let stopDiv = document.querySelector('.button-2')  //選取有stop按鈕的div
+let start = document.querySelector('.button .start') //選取start button
+let stopBtn = document.querySelector('.button-2 .stop') //選取stop button
+let reset1 = document.querySelector('.button .reset') //選取start div中的 reset button
+let reset2 = document.querySelector('.button-2 .reset') //選取stop div中的 reset button
 let min =sec = ms = "0"+ 0,
   startTimer;
 
